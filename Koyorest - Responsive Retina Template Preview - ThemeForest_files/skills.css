@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+.skimiler{
+	margin: 0px auto;
+	width: auto;
+	display: table;
+}
+.skiller { 
+	margin: 35px 20px;
+	position: relative;
+}
+.col { 
+	width: auto;
+}
+#skill {
+	list-style: none outside none;
+}
+#skill li {
+	height: 30px;
+	margin-bottom: 25px;
+	margin-left:0;
+	width: auto;
+}
+#skill li em {
+	position:relative;
+	top: -25px;
+	font-style: normal;
+}
+#skill li small { 
+	margin-left: 10px;
+}
+
+.expand {
+	height: 30px;
+	position: absolute;
+	line-height: 30px;
+	left: 0;
+}
+.french_k { 
+	width: 70%;
+	-moz-animation: french_k 2s ease-out;
+	-webkit-animation: french_k 2s ease-out;
+}
+.japan_k { 
+	width:90%;
+	-moz-animation: japan_k 2s ease-out;
+	-webkit-animation: japan_k 2s ease-out;
+}
+.russian_k {
+	width:50%;
+	-moz-animation: russian_k 2s ease-out;
+	-webkit-animation: russian_k 2s ease-out;
+}
+.italian_k {
+	width:40%;
+	-moz-animation: italian_k 2s ease-out;
+	-webkit-animation: italian_k 2s ease-out;
+}
+.german_k {
+	width:100%;
+	-moz-animation: german_k 2s ease-out;
+	-webkit-animation:german_k 2s ease-out;
+}
+
+@-moz-keyframes french_k       { 0%  { width:0px;} 100%{ width:70%;} }
+@-moz-keyframes japan_k        { 0%  { width:0px;} 100%{ width::90%;} }
+@-moz-keyframes russian_k      { 0%  { width:0px;} 100%{ width::50%;} }
+@-moz-keyframes italian_k      { 0%  { width:0px;} 100%{ width::40%;} }
+@-moz-keyframes german_k 	   { 0%  { width:0px;} 100%{ width::100%;} }
+
+@-webkit-keyframes french_k       { 0%  { width:0px;} 100%{ width:70%;} }
+@-webkit-keyframes japan_k        { 0%  { width:0px;} 100%{ width::90%;} }
+@-webkit-keyframes russian_k      { 0%  { width:0px;} 100%{ width::50%;} }
+@-webkit-keyframes italian_k 	  { 0%  { width:0px;} 100%{ width::40%;} }
+@-webkit-keyframes german_k		  { 0%  { width:0px;} 100%{ width::100%;} }

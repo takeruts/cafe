@@ -1,0 +1,155 @@
+@charset "utf-8";
+.js div#preloader { 
+	background: #000 url('../../images/orange/preloader.gif') no-repeat center center; 
+}
+#footer_contact_a {
+	background-color: #f78b00;
+}
+.option-combo ul li .selected,
+.option-combo_2 ul li .selected {
+	color: #f78b00;
+}
+.photo_thumb_hover_1 {
+	background-image: url(../../images/orange/photo_thumb_hover_1.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.element_content_header_1_icon_bg {
+	background: url(../../images/orange/element_content_header_1_icon_bg.svg) no-repeat;
+}
+.element_content_header_2_icon_bg {
+	background: url(../../images/orange/element_content_header_2_icon_bg.svg) no-repeat;
+}
+.element_content_header_5 .element_content_header_3_icon_bg {
+	background: url(../../images/orange/element_content_header_3_icon_bg.svg) no-repeat;
+}
+.element_content_header_3_icon_bg {
+	background: url(../../images/orange/element_content_header_3_icon_bg.svg) no-repeat;
+}
+.element_content_header_4_icon_bg {
+	background: url(../../images/orange/element_content_header_4_icon_bg.svg) no-repeat;
+}
+.element_content_header_1_txt_1 {
+	background: url(../../images/orange/long.svg) no-repeat bottom center;
+}
+.element_content_header_1_txt_2 {
+	background: url(../../images/orange/short.svg) no-repeat bottom center;
+}
+.element_content_header_3 {
+	background: url(../../images/orange/short.svg) no-repeat bottom center;
+}
+.element_content_header_4 {
+	background: url(../../images/orange/short.svg) no-repeat bottom center;
+}
+.element_content_header_6 {
+	background: url(../../images/orange/long.svg) no-repeat bottom left;
+}
+.element_content_header_3_txt_1 {
+	background: url(../../images/orange/long.svg) no-repeat 20px bottom;
+}
+.event_info_title {
+	background: url(../../images/orange/long.svg) no-repeat 20px bottom;
+}
+.about_us_person_hover {
+	background: rgba(247, 139, 0, 0.7);
+}
+.about_us_person_hover_active {
+	background: rgba(247, 139, 0, 0.7);
+}
+#new_menu_read_more_dialog h1,
+#events_read_more_dialog_1 h1,
+#events_read_more_dialog_2 h1,
+#work_offer_read_more_dialog h1{
+	background: url(../../images/orange/long.svg) no-repeat 0px bottom;
+}
+.read_more_a {
+	-webkit-box-shadow: 0px 2px 0px 1px #f78b00;
+	box-shadow: 0px 2px 0px 1px #f78b00; 
+}
+.read_more_2_a {
+	-webkit-box-shadow: 0px 3px 0px 1px #f78b00;
+	box-shadow: 0px 2px 0px 1px #f78b00; 
+}
+
+/* FLEX SLIDER */
+
+.flexslider_4 .flex-direction-nav a {
+	background: url(../../images/orange/bg_direction_nav.svg) no-repeat 0 0;
+}
+.flexslider_5 .flex-direction-nav a {
+	background: url(../../images/orange/bg_direction_nav.svg) no-repeat 0 0; 
+}
+.flex-control-paging li a.flex-active {
+	background: #f78b00;
+}
+
+/* NANO SCROLLER */
+
+.nano > .pane {
+	background : #f78b00;
+}
+
+/* MAGNIFIC POP-UP */
+
+.mfp-close {
+	color: #ff9100;
+}
+.mfp-close-btn-in .mfp-close {
+	color: #ff9100;
+}
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+	color: #ff9100;
+}
+
+/* DATE PICKER */
+
+.ui-widget-header {
+	background-image: url(../../images/orange/short.svg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	background: #ff9100 !important;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	background: #ff9100 !important;
+}
+
+/* TABS */
+#example-one .nav li a { 
+	background: #f78b00;
+}
+
+/* ACCORDION */
+
+h2.trigger {
+	background: #f78b00;
+}
+
+/* SKILLS */
+
+.expand {
+	background: #f78b00;
+}
+.blog_post_header {
+	background: url(../../images/orange/long.svg) no-repeat 0px bottom;
+}
+
+@media screen and (max-width: 499px) {
+.element_content_header_4_icon_bg {
+	background: url(../../images/orange/element_content_header_2_icon_bg.svg) no-repeat;
+}
+}
+@media screen and (min-width: 500px) {
+.element_content_header_4_icon_bg {
+	background: url(../../images/orange/element_content_header_4_icon_bg.svg) no-repeat;
+}
+}
